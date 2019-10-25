@@ -1,8 +1,8 @@
-For this workshop, you will need to:
+## Prerequisites
 
--  Jupyter Notebooks. Please sign up/login to use the jupyter notebook in the cloud (Link: https://ibm.biz/BdzAHm)
-- Docker
-- Python
-- Code editor (sublime, notepad, VS, atom, etc)
-- Download the dataset we will be using during the training: [https://developer.ibm.com/exchanges/data/all/fashion-mnist/](https://developer.ibm.com/exchanges/data/all/fashion-mnist/)
-- Join our #odsc-west-training2019 channel here: [model-asset-exchange.slack.com](model-asset-exchange.slack.com)
+1. Jupyter Notebooks. Please sign up/login using the [Link](https://ibm.biz/odsc-cloud-signup) to use the Jupyter notebook in the cloud. 
+2. Install the IBM Cloud command line tools. [Link](https://ibm.biz/install-ibmcloud-cli)
+3. Sign up for a Docker account and Install Docker. [Link](https://hub.docker.com/signup)
+4. Python 3
+5. Code editor (Sublime Text, Text Editor, Notepad, PyCharm, VSCode, …)
+6. Join our Model Asset Exchange slack using this [invite](http://ibm.biz/max-slack-invite) and join the channel #odsc-west-training2019
