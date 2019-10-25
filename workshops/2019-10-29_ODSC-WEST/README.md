@@ -5,7 +5,7 @@ Time: 2pm - 5:30pm
 
 - Session details: https://odsc.com/training/portfolio/deploying-deep-learning-models-as-microservices/
 - Authors: IBM Developer, [CODAIT](https://developer.ibm.com/code/open/centers/codait/)
-- Presentation: [ADD THE PRESENTATION]
+- Presentation: [Slides](http://ibm.biz/ODSC2019-slides)
 - Prerequisites: [prerequisites.md](prerequisites.md)
 - ODSC-West blogpost: https://opendatascience.com/automating-image-annotation-with-max/
 
