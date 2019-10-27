@@ -29,7 +29,7 @@ Below is the flow chart that demonstrates the structure of the tutorial.
 ![flow](images/flow.png)
 
 
-:exclamation: Join the discussion on slack using this [link](http://ibm.biz/max-slack-invite). :exclamation:
+:exclamation: Join the discussion on slack using this [link](http://ibm.biz/max-slack-invite). We will be using the channel #odsc-west-training2019. :exclamation:
 
 ### Tutorial 1: Create a model microservice and deploy in kubernetes
 
