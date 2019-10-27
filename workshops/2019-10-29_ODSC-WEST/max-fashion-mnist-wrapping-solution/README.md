@@ -113,7 +113,7 @@ b44f32e1ca3392312bc9d9f8a2ada8a1  assets/fashion_mnist.h5
 
 ### Update Package Requirements
 
-Add required python packages for running the model prediction to requirements.txt. 
+Add required python packages for running the model prediction to `requirements.txt`. 
 
 Following packages are required for this model:
 
