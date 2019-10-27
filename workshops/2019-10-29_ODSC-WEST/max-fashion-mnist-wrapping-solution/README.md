@@ -148,7 +148,7 @@ tensorflow==1.14
    
 ### Update Scripts
 
-All you need to start wrapping your model is pre-processing, prediction and post-processing code.
+All you need to start wrapping your model is pre-processing, post-processing and prediction code.
   
 1. In `core/model.py`, load the model under the `__init__()` method of the `ModelWrapper` class. 
    
