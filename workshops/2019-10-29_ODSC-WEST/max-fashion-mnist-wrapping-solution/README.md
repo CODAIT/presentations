@@ -139,12 +139,12 @@ tensorflow==1.14
 
 3. In `core/model.py`, fill in the `MODEL_META_DATA` 
        
-   - Model id
-   - Model name (e.g. MAX-Fashion-MNIST)
-   - Description of the model (e.g. Classify clothing and fashion items)
-   - Model type based on what the model does (e.g. Digit recognition)
-   - Source to the model belongs
-   - Model license (e.g. Apache 2.0)
+   - `id` of the model: this can be anything, e.g. `Image Classification`
+   - `name` of the model: e.g. `MAX-Fashion-MNIST`
+   - `description` of the model: e.g. `Classify clothing and fashion items`
+   - `type` of the model based on what it's purpose is: e.g. `Image Classification`
+   - `source` of the model: e.g. a url to the repository it's downloaded from
+   - `license` related to the source code: e.g. `Apache 2.0` if applicable
    
 ## Update Scripts
 
