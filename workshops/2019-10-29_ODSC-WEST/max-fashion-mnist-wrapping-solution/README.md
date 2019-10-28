@@ -105,7 +105,7 @@ Navigate to the folder you just cloned, open the Dockerfile file and update the 
    
 - `ARG model_file=` with the model file name. 
 
-   For testing purpose, update as below:
+   For testing purpose, uncomment `ARG model_bucket` and `ARG model_file` line and update as below:
 
 ```docker
 ARG model_bucket=https://max-assets-dev.s3.us-south.cloud-object-storage.appdomain.cloud/max-demo/1.0.0
@@ -282,6 +282,8 @@ All you need to start wrapping your model is pre-processing, post-processing and
     ```
 
 ## Build the model Docker image
+
+_NOTE_: Docker app needs to be running to complete the below steps
 
 If you're using your own file, please generate the md5 checksum for your own model file, and replace it with the value on the left. If you want to skip this step, feel free to remove the entire RUN-statement from the Dockerfile.
 
