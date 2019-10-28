@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/SSaishruthi/max-fashion-mnist.svg?branch=master)](https://travis-ci.org/SSaishruthi/max-fashion-mnist)
 
 :exclamation: Join the discussion on slack using this [link](http://ibm.biz/max-slack-invite). :exclamation:
 
