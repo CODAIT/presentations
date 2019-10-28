@@ -15,7 +15,7 @@ Time: 2pm - 5:30pm
 | Time          | Activity                                                                                 |
 | :------------ | :--------------------------------------------------------------------------------------- |
 | 2:00 - 2:30   | Introduction to the Model Asset eXchange (MAX)
-| 2:30 - 3:00   | How MAX is built: deployment best practices
+| 2:30 - 3:00   | How MAX is built: deployment practices
 | 3:00 - 3:30   | Wrap a deep learning model as a containerized microservice                               | 
 | 3:30 - 4:00   | ☕ *Coffee break*                                                                         |
 | 4:00 - 4:30   | Wrap a deep learning model as a containerized microservice                               |
