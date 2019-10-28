@@ -90,17 +90,14 @@ $ git clone https://github.com/IBM/MAX-Skeleton.git
 
 ## Update Dockerfile
 
-Steps before updating the Dockerfile:
+If you have trained your own model, perform the steps below before updating the Dockerfile:
 
-1. Create a tar archive file for the newly trained model file.
- 
-   For demo purpose, tar archive file `assets.tar.gz` has been created for the model file `fashion_mnist.h5`.
-   
-2. Upload the tar file to a downloadable location.
+   1. Create a tar archive file for the newly trained model file.
+   2. Upload the tar file to a downloadable location.
 
-   For demo purpose, we have uploaded `assets.tar.gz` model file to the [IBM cloud object storage](https://www.ibm.com/cloud/object-storage). 
+For tutorial purpose, tar archive file `assets.tar.gz` has been created for the model file `fashion_mnist.h5` and uploaded to the [IBM cloud object storage](https://www.ibm.com/cloud/object-storage). 
 
-   Storage location: `https://max-assets-dev.s3.us-south.cloud-object-storage.appdomain.cloud/max-demo/1.0.0`
+Storage location: `https://max-assets-dev.s3.us-south.cloud-object-storage.appdomain.cloud/max-demo/1.0.0`
    
 Navigate to the folder you just cloned, open the Dockerfile file and update the following:
 
