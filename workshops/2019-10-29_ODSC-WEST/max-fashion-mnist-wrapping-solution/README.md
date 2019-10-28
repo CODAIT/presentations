@@ -57,7 +57,7 @@ Training data investigation, visualization and model training code is available 
 # Steps
 
 1. [Fork the Template and Clone the Repository](#fork-the-template-and-clone-the-repository)
-2. [Update Dockerfile](#Update-dockerfile)
+2. [Update Dockerfile](#update-dockerfile)
 3. [Update Package Requirements](#update-package-requirements)
 4. [Update API and Model Metadata](#update-api-and-model-metadata)
 5. [Update Scripts](#update-scripts)
@@ -87,7 +87,7 @@ $ git clone https://github.com/......
 $ git clone https://github.com/IBM/MAX-Skeleton.git
 ```
 
-### Update Dockerfile
+## Update Dockerfile
 
 Open the Dockerfile file and update the following:
 
@@ -111,7 +111,7 @@ ARG model_file=assets.tar.gz
 b44f32e1ca3392312bc9d9f8a2ada8a1  assets/fashion_mnist.h5
 ```
 
-### Update Package Requirements
+## Update Package Requirements
 
 Add required python packages for running the model prediction to requirements.txt. 
 
@@ -125,7 +125,7 @@ tensorflow==1.14
 ```
    
 
-### Update API and Model Metadata
+## Update API and Model Metadata
 
 1. In `config.py`, update the API metadata.
 
@@ -146,7 +146,7 @@ tensorflow==1.14
    - Source to the model belongs
    - Model license (e.g. Apache 2.0)
    
-### Update Scripts
+## Update Scripts
 
 All you need to start wrapping your model is pre-processing, prediction and post-processing code.
   
@@ -279,7 +279,7 @@ $ docker build -t max-mnist .
 
 If you want to print debugging messages make sure to set `DEBUG=True` in `config.py`.
 
-### Run the model server
+## Run the model server
 
 To run the docker image, which automatically starts the model serving API, run:
 
