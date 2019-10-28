@@ -40,7 +40,9 @@ Each training and test example is assigned to one of the following labels:
 
 # Training (Optional)
 
-Training data investigation, visualization and model training code is available [here](http://ibm.biz/max_fashion_mnist_train)
+Training data investigation, visualization and model training code is available [here](http://ibm.biz/max_fashion_mnist_train).
+
+Trained model has been saved to `fashion_mnist.h5`. Note this file name as we will use this in the microservice creation.
 
 # Requirements
 
@@ -89,14 +91,24 @@ $ git clone https://github.com/IBM/MAX-Skeleton.git
 
 ## Update Dockerfile
 
+Steps before updating the Dockerfile:
+
+1. Create a tar archive file for the newly trained model file.
+ 
+   For demo purpose, tar archive file `assets.tar.gz` has been created for the model file `fashion_mnist.h5`.
+   
+2. Upload the tar file to a downloadable location.
+
+   For demo purpose, we have uploaded `assets.tar.gz` model file to the [IBM cloud object storage](https://www.ibm.com/cloud/object-storage). 
+
+   Storage location: `https://max-assets-dev.s3.us-south.cloud-object-storage.appdomain.cloud/max-demo/1.0.0`
+   
 Navigate to the folder you just cloned, open the Dockerfile file and update the following:
 
-- `ARG model_bucket=` with the link to the model file public storage that can be downloaded
+- `ARG model_bucket=` with the link to the model file public storage that can be downloaded.
    
-   For demo purpose, we have uploaded the trained model weights to [IBM Cloud Object Storage](https://www.ibm.com/cloud/object-storage)
-
 - `ARG model_file=` with the model file name. 
-   
+
    For testing purpose, update as below:
 
 ```docker
@@ -135,7 +147,9 @@ tensorflow==1.14
    - API_DESC 
    - API_VERSION 
 
-2. Set `MODEL_PATH = 'asssets/fashion_mnist.h5'`
+2. Set `MODEL_NAME = 'fashion_mnist.h5'`
+ 
+   This is the user provided name for the trained model. [Refer](#training-optional) 
 
    _NOTE_: Model files are always downloaded to `assets` folder inside docker.
 
@@ -147,7 +161,7 @@ tensorflow==1.14
    - `name` of the model: e.g. `MAX-Fashion-MNIST`
    - `description` of the model: e.g. `Classify clothing and fashion items`
    - `type` of the model based on what it's purpose is: e.g. `Image Classification`
-   - `source` of the model: e.g. a url to the repository it's downloaded from
+   - `source` of the model: e.g. a url to the repository where this code will be stored.
    - `license` related to the source code: e.g. `Apache 2.0` if applicable
    
 ## Update Scripts
