@@ -276,6 +276,31 @@ All you need to start wrapping your model is pre-processing, post-processing and
    
 6. Finally, assign the output from the post-processing step to the appropriate response field in `api/predict.py` to link the processed model output to the API.
 
+   - Comment the below line by adding `#` before the start of the line. This is because we are already extracting
+     the output in the required format (list containing dictionary) in step 5.
+   
+     Before the change
+   
+   ```python
+   label_preds = [{'label_id': p[0], 'label': p[1], 'probability': p[2]} for p in [x for x in preds]]
+   ```
+   
+     After the change
+   
+   ```python
+   # label_preds = [{'label_id': p[0], 'label': p[1], 'probability': p[2]} for p in [x for x in preds]]
+   ```
+   
+   - Change `label_preds` to `preds` and assign it to `result['predictions']`. 
+   
+   Original code:
+   
+   ```python
+    # Assign result
+    result['predictions'] = label_preds
+    ```
+   Update to:
+   
     ```python
     # Assign result
     result['predictions'] = preds
