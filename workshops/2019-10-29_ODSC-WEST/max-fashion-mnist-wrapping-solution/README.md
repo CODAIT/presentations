@@ -291,8 +291,10 @@ If you're using your own file, please generate the md5 checksum for your own mod
 To build the docker image locally, run:
 
 ```
-$ docker build -t max-mnist .
+$ docker build -t max-fashion-mnist .
 ```
+
+`-t` option is used to tag the docker image. Here, we are tagging the docker image with the name `max-fashion-mnist`.
 
 If you want to print debugging messages make sure to set `DEBUG=True` in `config.py`.
 
@@ -301,7 +303,7 @@ If you want to print debugging messages make sure to set `DEBUG=True` in `config
 To run the docker image, which automatically starts the model serving API, run:
 
 ```
-$ docker run -it -p 5000:5000 max-mnist
+$ docker run -it -p 5000:5000 max-fashion-mnist
 ```
 
 ## (Optional) Update Test Script
