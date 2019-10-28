@@ -127,7 +127,9 @@ tensorflow==1.14
 
 ## Update API and Model Metadata
 
-1. In `config.py`, update the API metadata.
+1. In `config.py`, update the API metadata. 
+
+    This metadata is used to characterize the API wrapping the model.
 
    - API_TITLE 
    - API_DESC 
@@ -138,13 +140,15 @@ tensorflow==1.14
    _NOTE_: Model files are always downloaded to `assets` folder inside docker.
 
 3. In `core/model.py`, fill in the `MODEL_META_DATA` 
+
+    This metadata is used to characterize the model itself.
        
-   - Model id
-   - Model name (e.g. MAX-Fashion-MNIST)
-   - Description of the model (e.g. Classify clothing and fashion items)
-   - Model type based on what the model does (e.g. Digit recognition)
-   - Source to the model belongs
-   - Model license (e.g. Apache 2.0)
+   - `id` of the model: this can be anything, e.g. `Image Classification`
+   - `name` of the model: e.g. `MAX-Fashion-MNIST`
+   - `description` of the model: e.g. `Classify clothing and fashion items`
+   - `type` of the model based on what it's purpose is: e.g. `Image Classification`
+   - `source` of the model: e.g. a url to the repository it's downloaded from
+   - `license` related to the source code: e.g. `Apache 2.0` if applicable
    
 ## Update Scripts
 
