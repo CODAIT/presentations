@@ -37,10 +37,14 @@ If you have your image built locally, you can upload it using the Docker command
 docker login
 ```
 ```bash
+docker tag [image-name]:[version-tag] [account-username]/[image-name]:[version-tag]
+```
+```bash
 docker push [account-username]/[image-name]:[version-tag]
 ```
 
 Replace the `[account-username]` with your Docker username, `[image-name]` with the name of the image you built, and `[version-tag]` with how you want to label the current version of the image (e.g. `v1`).
+
 
 ### 4. Deploy
 
