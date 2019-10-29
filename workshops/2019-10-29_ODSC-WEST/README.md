@@ -41,9 +41,6 @@ This tutorial has two sections:
 
 Follow the instructions provided [here](max-fashion-mnist-wrapping-solution/README.md).
 
-Model wrapping tutorial video demo: 
-
-
 ### Tutorial 2: Create a WebApp using the model microservice
 
 Follow the instructions provided [here](https://github.com/CODAIT/max-fashion-mnist-tutorial-app/blob/master/README.md) to create a WebApp.
