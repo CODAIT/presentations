@@ -231,7 +231,7 @@ All you need to start wrapping your model is pre-processing, post-processing and
    'label_id': fields.String(required=False, description='Label identifier'),
    ```
    
-   Replace `label` with `prediction`.
+   Replace `label` with `prediction` in `label_prediction`.
    
    ```python
     label_prediction = MAX_API.model('LabelPrediction', {
