@@ -167,7 +167,7 @@ All you need to start wrapping your model is pre-processing, post-processing and
 1. In `core/model.py`, load the model under the `__init__()` method of the `ModelWrapper` class. 
    
     Here, the saved model (`.h5` format) can be loaded using the command below.
-  
+    
     ```python
     global sess
     global graph
@@ -188,6 +188,8 @@ All you need to start wrapping your model is pre-processing, post-processing and
 2. In `core/model.py`, input pre-processing functions should be placed under the `_pre_process` function.
    
     Here, the input image needs to be read and converted into an array of acceptable shape.
+    
+    _NOTE_: Remove `return inp` and add the below code.
   
     ```python
     # Open the input image
@@ -212,6 +214,8 @@ All you need to start wrapping your model is pre-processing, post-processing and
  
 3. Following pre-processing, we will feed the input to the model. Place the inference code under the `_predict` method in `core/model.py`. The model will return a list of class probabilities, corresponding to the likelihood of the input image to belong to respective class. There are 10 classes (digit 0 to 9), so `predict_result` will contain 10 values.
   
+    _NOTE_: Remove `return x` and add the below code.
+    
     ```python
     with graph.as_default():
       set_session(sess)
@@ -221,7 +225,15 @@ All you need to start wrapping your model is pre-processing, post-processing and
      
 4. The predicted class and it's probability are the desired output. In order to return these values in the API, we need to add these two fields to `label_prediction` in `api/predict.py`.
   
-    ```python
+   Remove the below line in `label_prediction`.
+   
+   ```python
+   'label_id': fields.String(required=False, description='Label identifier'),
+   ```
+   
+   Replace `label` with `prediction` in `label_prediction`.
+   
+   ```python
     label_prediction = MAX_API.model('LabelPrediction', {
       'prediction': fields.String(required=True),
       'probability': fields.Float(required=True)
@@ -241,7 +253,7 @@ All you need to start wrapping your model is pre-processing, post-processing and
     
 5. Following inference, a post-processing step is needed to reformat the output of the `_predict` method. It's important to make sense of the results before returning the output to the user. Any post-processing code will go under the `_post_process` method in `core/model.py`.
 
-    In order to make sense of the predicted class digits, we will add the `CLASS_DIGIT_TO_LABEL` variable to the `config.py` file. This will serve as a mapping between class digits and labels to make the output more understandable to the user. 
+   In order to make sense of the predicted class digits, we will add the `CLASS_DIGIT_TO_LABEL` variable to the `config.py` file. This will serve as a mapping between class digits and labels to make the output more understandable to the user. 
 
     ```python
     CLASS_DIGIT_TO_LABEL = {
@@ -266,7 +278,10 @@ All you need to start wrapping your model is pre-processing, post-processing and
 
     The class with the highest probability will be assigned to the input image. Here, we will use our imported `CLASS_DIGIT_TO_LABEL` variable to map the class digit to the corresponding label.
 
-
+    Add the below code under the `_post_process` method in `core/model.py`.
+    
+    _NOTE_: Remove `return result` and add the below code.
+    
     ```python
     # Extract prediction probability using `amax` and
     # digit prediction using `argmax`
@@ -313,6 +328,8 @@ To run the docker image, which automatically starts the model serving API, run:
 ```
 $ docker run -it -p 5000:5000 max-fashion-mnist
 ```
+
+Test the microservice using the image [here](https://github.com/CODAIT/presentations/blob/master/workshops/2019-10-29_ODSC-WEST/max-fashion-mnist-wrapping-solution/samples/1.jpeg).
 
 ## (Optional) Update Test Script
 
