@@ -9,18 +9,18 @@ Time: 2pm - 5:30pm
 - Prerequisites: [prerequisites.md](prerequisites.md)
 - ODSC-West blogpost: https://opendatascience.com/automating-image-annotation-with-max/
 
-
-## Schedule
+ 
+## Schedule (just a guideline)
 
 | Time          | Activity                                                                                 |
 | :------------ | :--------------------------------------------------------------------------------------- |
-| 2:00 - 2:30   | Introduction to Model Asset eXchange (MAX)
-| 2:30 - 3:00   | How MAX is built: deployment best practices
-| 3:00 - 3:15   | Setup (clone repo, download any additional material                                      |
-| 3:15 - 3:30   | ☕ *Coffee break*                                                                         |
-| 3:30 - 4:30   | Wrap Deep Learning Model for Deployment
-| 4:30 - 5:00   | App Creation                                                                             |
-| 5:00 - 5:30   | Final Remarks                                                                            |
+| 2:00 - 2:30   | Introduction to the Model Asset eXchange (MAX)
+| 2:30 - 3:00   | How MAX is built: deployment practices
+| 3:00 - 3:30   | Wrap a deep learning model as a containerized microservice                               | 
+| 3:30 - 4:00   | ☕ *Coffee break*                                                                         |
+| 4:00 - 4:30   | Wrap a deep learning model as a containerized microservice                               |
+| 4:30 - 5:30   | Deploy the microservice on Kubernetes                                                    |
+| 5:30 - 6:00   | Final Remarks                                                                            |
 
 ## Tutorial
 
