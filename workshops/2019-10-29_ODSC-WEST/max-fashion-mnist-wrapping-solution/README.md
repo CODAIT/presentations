@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/SSaishruthi/max-fashion-mnist.svg?branch=master)](https://travis-ci.org/SSaishruthi/max-fashion-mnist)
 
 :exclamation: Join the discussion on slack using this [link](http://ibm.biz/max-slack-invite). :exclamation:
 
@@ -40,7 +39,9 @@ Each training and test example is assigned to one of the following labels:
 
 # Training (Optional)
 
-Training data investigation, visualization and model training code is available [here](http://ibm.biz/max_fashion_mnist_train)
+Training data investigation, visualization and model training code is available [here](http://ibm.biz/max_fashion_mnist_train).
+
+Trained model has been saved to `fashion_mnist.h5`. Note this file name as we will use this in the microservice creation.
 
 # Requirements
 
@@ -89,15 +90,22 @@ $ git clone https://github.com/IBM/MAX-Skeleton.git
 
 ## Update Dockerfile
 
+If you have trained your own model, perform the steps below before updating the Dockerfile:
+
+   1. Create a tar archive file for the newly trained model file.
+   2. Upload the tar file to a downloadable location.
+
+For tutorial purpose, tar archive file `assets.tar.gz` has been created for the model file `fashion_mnist.h5` and uploaded to the [IBM cloud object storage](https://www.ibm.com/cloud/object-storage). 
+
+Storage location: `https://max-assets-dev.s3.us-south.cloud-object-storage.appdomain.cloud/max-demo/1.0.0`
+   
 Navigate to the folder you just cloned, open the Dockerfile file and update the following:
 
-- `ARG model_bucket=` with the link to the model file public storage that can be downloaded
+- `ARG model_bucket=` with the link to the model file public storage that can be downloaded.
    
-   For demo purpose, we have uploaded the trained model weights to [IBM Cloud Object Storage](https://www.ibm.com/cloud/object-storage)
-
 - `ARG model_file=` with the model file name. 
-   
-   For testing purpose, update as below:
+
+   For testing purpose, uncomment `ARG model_bucket` and `ARG model_file` line and update as below:
 
 ```docker
 ARG model_bucket=https://max-assets-dev.s3.us-south.cloud-object-storage.appdomain.cloud/max-demo/1.0.0
@@ -135,7 +143,9 @@ tensorflow==1.14
    - API_DESC 
    - API_VERSION 
 
-2. Set `MODEL_PATH = 'asssets/fashion_mnist.h5'`
+2. Set `MODEL_NAME = 'fashion_mnist.h5'`
+ 
+   This is the user provided name for the trained model. [Refer](#training-optional) 
 
    _NOTE_: Model files are always downloaded to `assets` folder inside docker.
 
@@ -147,7 +157,7 @@ tensorflow==1.14
    - `name` of the model: e.g. `MAX-Fashion-MNIST`
    - `description` of the model: e.g. `Classify clothing and fashion items`
    - `type` of the model based on what it's purpose is: e.g. `Image Classification`
-   - `source` of the model: e.g. a url to the repository it's downloaded from
+   - `source` of the model: e.g. a url to the repository where this code will be stored.
    - `license` related to the source code: e.g. `Apache 2.0` if applicable
    
 ## Update Scripts
@@ -266,20 +276,33 @@ All you need to start wrapping your model is pre-processing, post-processing and
    
 6. Finally, assign the output from the post-processing step to the appropriate response field in `api/predict.py` to link the processed model output to the API.
 
-    ```python
-    # Assign result
-    result['predictions'] = preds
-    ```
+   Replace the original code:
+   
+   ```python
+   label_preds = [{'label_id': p[0], 'label': p[1], 'probability': p[2]} for p in [x for x in preds]]
+   result['predictions'] = label_preds
+   ```
+   
+   with
+   
+   ```python
+   # label_preds = [{'label_id': p[0], 'label': p[1], 'probability': p[2]} for p in [x for x in preds]]
+   result['predictions'] = preds
+   ```
 
 ## Build the model Docker image
+
+_NOTE_: Docker app needs to be running to complete the below steps
 
 If you're using your own file, please generate the md5 checksum for your own model file, and replace it with the value on the left. If you want to skip this step, feel free to remove the entire RUN-statement from the Dockerfile.
 
 To build the docker image locally, run:
 
 ```
-$ docker build -t max-mnist .
+$ docker build -t max-fashion-mnist .
 ```
+
+`-t` option is used to tag the docker image. Here, we are tagging the docker image with the name `max-fashion-mnist`.
 
 If you want to print debugging messages make sure to set `DEBUG=True` in `config.py`.
 
@@ -288,7 +311,7 @@ If you want to print debugging messages make sure to set `DEBUG=True` in `config
 To run the docker image, which automatically starts the model serving API, run:
 
 ```
-$ docker run -it -p 5000:5000 max-mnist
+$ docker run -it -p 5000:5000 max-fashion-mnist
 ```
 
 ## (Optional) Update Test Script

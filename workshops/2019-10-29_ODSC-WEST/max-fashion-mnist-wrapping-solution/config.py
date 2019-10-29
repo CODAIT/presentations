@@ -27,7 +27,8 @@ API_DESC = 'Classify images of clothing pieces.'
 API_VERSION = '0.1'
 
 # Default model
-DEFAULT_MODEL_PATH = 'assets/fashion_mnist.h5'
+MODEL_NAME = 'fashion_mnist.h5'
+DEFAULT_MODEL_PATH = 'assets/{}'.format(MODEL_NAME)
 
 # Model metadata
 CLASS_DIGIT_TO_LABEL = {

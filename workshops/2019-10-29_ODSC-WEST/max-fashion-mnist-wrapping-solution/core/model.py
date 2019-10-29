@@ -35,7 +35,7 @@ class ModelWrapper(MAXModelWrapper):
         'name': 'MAX-Fashion-MNIST',
         'description': 'Classify clothing and fashion items',
         'type': 'TensorFlow model',
-        'source': 'https://github.com/SSaishruthi/max_fashion_mnist',
+        'source': 'https://github.com/CODAIT/presentations',
         'license': 'Apache 2.0'
     }
 
