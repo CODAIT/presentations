@@ -4,6 +4,7 @@
 ## [Talks](talks/)
 
 - [Data Science Go](talks/2019-09-28_Data-Science-Go)
+- [Rday Medellín](talks/2019-11-08_Rday-Medellin)
 
 ## [Workshops](workshops/)
 
