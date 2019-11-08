@@ -17,3 +17,5 @@ object_detector <- function(path_to_img, endpoint) {
 }
 
 object_detector("imgs/baby-bear.jpg", endpoint)
+object_detector("imgs/dog-human.jpg", endpoint)
+object_detector("imgs/jockey.jpg", endpoint)
