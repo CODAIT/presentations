@@ -2,7 +2,7 @@
 
 [https://techintersections.org/](https://techintersections.org/)
 
-- Slides: 
+- [Slides](https://speakerdeck.com/kroz/deep-learning-for-everyone-efd3269e-6b57-42e9-a90d-bd9d91d900e1)
 
 - Model Asset Exchange: [http://ibm.biz/model-exchange](http://ibm.biz/model-exchange)
 
