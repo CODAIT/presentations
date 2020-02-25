@@ -22,4 +22,4 @@ Register [here](https://event.on24.com/eventRegistration/EventLobbyServlet?targe
 
 - AIF 360 github: https://github.com/IBM/AIF360
 
-- Gabriela de Queiroz: [website](https://k-roz.com/), [AI Inclusive](ai-inclusive.org)
+- Gabriela de Queiroz: [website](https://k-roz.com/), [AI Inclusive](https://ai-inclusive.org)
