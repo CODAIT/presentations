@@ -2,7 +2,7 @@
 
 Register [here](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&referrer=https://wcc.on24.com/webcast/webcasts&eventid=2189619&sessionid=1&key=43772B5161DA04B2B61E9A6C439279D7&regTag=&sourcepage=register)
 
-- Slides: https://speakerdeck.com/kroz/deep-learning-for-everyone-tech-intersections
+- Slides: https://speakerdeck.com/kroz/deep-learning-for-everyone-a638d140-5bc7-402f-82c3-d18672c9301e
 
 - Model Asset Exchange: [http://ibm.biz/model-exchange](http://ibm.biz/model-exchange)
 
