@@ -1,12 +1,14 @@
 # IBM Community Data Science Webcast
 
-Register [here](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&referrer=https://wcc.on24.com/webcast/webcasts&eventid=2189619&sessionid=1&key=43772B5161DA04B2B61E9A6C439279D7&regTag=&sourcepage=register)
+Register [here](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&referrer=https://wcc.on24.com/webcast/webcasts&eventid=2189619&sessionid=1&key=43772B5161DA04B2B61E9A6C439279D7&regTag=&sourcepage=register).
 
-- Slides: https://speakerdeck.com/kroz/deep-learning-for-everyone-a638d140-5bc7-402f-82c3-d18672c9301e
+- Slides: https://speakerdeck.com/kroz/deep-learning-for-everyone-ibm-community-data-science-webcast
 
 - Model Asset Exchange: [http://ibm.biz/model-exchange](http://ibm.biz/model-exchange)
 
 - Data Asset Exchange: [http://ibm.biz/data-exchange](http://ibm.biz/data-exchange)
+
+- Central Repository of Model Asset Exchange project: https://github.com/CODAIT/max-central-repo
 
 - Sign up for IBM Cloud [here](http://ibm.biz/max-cloud) and use the [Python Notebook](http://ibm.biz/max-notebook)
 
