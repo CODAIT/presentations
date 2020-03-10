@@ -4,7 +4,7 @@ March 10th, 2020 | 8am-5pm (ET)
 
 Register [here](https://ibm-deployai.bemyapp.com/r).
 
-- Slides: 
+- Slides: https://speakerdeck.com/kroz/deep-learning-for-everyone-virtual-community-day-deploy-ai
 
 - Sign up for IBM Cloud: http://ibm.biz/max-cloud
 
