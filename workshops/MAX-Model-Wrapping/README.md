@@ -350,10 +350,6 @@ Test the microservice using the image [here](https://github.com/CODAIT/presentat
 3. To enable Travis CI testing uncomment the docker commands and pytest command in `.travis.yml`.
 
 
-## (optional) Deploy to production with Kubernetes
-
-Follow the tutorial in the [deploy-to-kubernetes.md](deploy-to-kubernetes.md) tutorial.
-
 ## Resources
 
 1. IBM Developer - [Model Asset Exchange](https://ibm.biz/model-exchange)
