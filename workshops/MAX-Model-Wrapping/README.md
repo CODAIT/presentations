@@ -76,7 +76,7 @@ Trained model has been saved to `fashion_mnist.h5`. Note this file name as we wi
 3. Clone the newly created repository using the below command:
 
 ```bash
-$ git clone https://github.com/......
+$ git clone https://github.com/[NEW REPO]
 
 ```
 
@@ -99,9 +99,9 @@ $ git clone https://github.com/IBM/MAX-Skeleton.git
    For testing purpose, uncomment `ARG model_bucket` and `ARG model_file` line and update as below:
 
 ```docker
-ARG model_bucket= https://github.com/SSaishruthi/misc/raw/master/
+ARG model_bucket=https://max-cdn.cdn.appdomain.cloud/max-wrapping-demo/1.0.0
 
-ARG model_file=fashion_mnist.h5
+ARG model_file=assets.tar.gz 
 ```
 
 -  When building the Dockerfile, the integrity of the downloaded model file will be verified. If you're using the model file provided by us, the checksum in the `sha512sums.txt` file has to be replaced with the following:
@@ -117,7 +117,7 @@ Add required python packages for running the model prediction to `requirements.t
 Following packages are required for this model:
 
 ```
-numpy==1.14.1
+numpy==1.16.1
 Pillow==5.4.1
 h5py==2.9.0
 ```
