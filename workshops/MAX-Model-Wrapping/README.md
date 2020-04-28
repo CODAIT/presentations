@@ -39,7 +39,7 @@ Each training and test example is assigned to one of the following labels:
 
 # Training (Optional)
 
-Training data investigation, visualization and model training code is available [here](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/b483410a-5d48-48d4-8407-d719a9eaaec9/view?access_token=bc01a895861e73cfde1b478a611c19dca8f85ea608bc7905513c1015c15693a2).
+Training data investigation, visualization and model training code is available on [Watson Studio](https://dax-nb-preview-prod.s3.us.cloud-object-storage.appdomain.cloud/preview_notebooks.html?dataset=fashion-mnist).
 
 Trained model has been saved to `fashion_mnist.h5`. Note this file name as we will use this in the microservice creation.
 
@@ -292,7 +292,6 @@ All you need to start wrapping your model is pre-processing, post-processing and
    with
    
    ```python
-   # label_preds = [{'label_id': p[0], 'label': p[1], 'probability': p[2]} for p in [x for x in preds]]
    result['predictions'] = preds
    ```
 
