@@ -45,9 +45,9 @@ Trained model has been saved to `fashion_mnist.h5`. Note this file name as we wi
 
 ### Bonus
 
-To directly use as a Watson Studio project, click on `Run notebooks in Watson Studio` [here](https://dax-nb-preview-prod.s3.us.cloud-object-storage.appdomain.cloud/preview_notebooks.html?dataset=fashion-mnist).
+To directly use the training notebook as a Watson Studio project, click on `Run notebooks in Watson Studio` [here](https://dax-nb-preview-prod.s3.us.cloud-object-storage.appdomain.cloud/preview_notebooks.html?dataset=fashion-mnist).
 
-To add training notebook to an existing Watson Studio project, follow steps under `Run the notebook` section in [this](https://developer.ibm.com/technologies/data-science/tutorials/getting-started-with-the-data-asset-exchange/) tutorial.
+To add [this](https://github.com/CODAIT/presentations/blob/master/workshops/MAX-Model-Wrapping/training/Fashion_MNIST.ipynb) training notebook to an existing Watson Studio project, follow steps under `Run the notebook` section in [this](https://developer.ibm.com/technologies/data-science/tutorials/getting-started-with-the-data-asset-exchange/) tutorial.
 
 # Requirements
 
