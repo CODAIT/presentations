@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: max-skeleton
+spec:
+  selector:
+    app: max-skeleton
+  ports:
+  - port: 5000
+  type: NodePort
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: max-skeleton
+  labels:
+    app: max-skeleton
+spec:
+  selector:
+    matchLabels:
+      app: max-skeleton
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: max-skeleton
+    spec:
+      containers:
+      - name: max-skeleton
+        image: codait/max-skeleton:latest
+        ports:
+        - containerPort: 5000
