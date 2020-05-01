@@ -43,6 +43,8 @@ Model training code is available [here](https://github.com/CODAIT/presentations/
 
 Trained model has been saved to `fashion_mnist.h5`. Note this file name as we will use this in the microservice creation.
 
+### Bonus
+
 To directly use as a Watson Studio project, click on `Run notebooks in Watson Studio` [here](https://dax-nb-preview-prod.s3.us.cloud-object-storage.appdomain.cloud/preview_notebooks.html?dataset=fashion-mnist).
 
 To add training notebook to an existing Watson Studio project, follow steps under `Run the notebook` section in [this](https://developer.ibm.com/technologies/data-science/tutorials/getting-started-with-the-data-asset-exchange/) tutorial.
