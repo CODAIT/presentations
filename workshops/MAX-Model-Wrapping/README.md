@@ -39,9 +39,13 @@ Each training and test example is assigned to one of the following labels:
 
 # Training (Optional)
 
-Training data investigation, visualization and model training code is available [here](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/b483410a-5d48-48d4-8407-d719a9eaaec9/view?access_token=bc01a895861e73cfde1b478a611c19dca8f85ea608bc7905513c1015c15693a2).
+Model training code is available [here](https://github.com/CODAIT/presentations/blob/master/workshops/MAX-Model-Wrapping/training/Fashion_MNIST.ipynb).
 
 Trained model has been saved to `fashion_mnist.h5`. Note this file name as we will use this in the microservice creation.
+
+To directly use as a Watson Studio project, click on `Run notebooks in Watson Studio` [here](https://dax-nb-preview-prod.s3.us.cloud-object-storage.appdomain.cloud/preview_notebooks.html?dataset=fashion-mnist).
+
+To add training notebook to an existing Watson Studio project, follow steps under `Run the notebook` section in [this](https://developer.ibm.com/technologies/data-science/tutorials/getting-started-with-the-data-asset-exchange/) tutorial.
 
 # Requirements
 
