@@ -2,7 +2,7 @@
 
 [https://www.datascience.salon/dss-elevate-virtual-conference-june-18/](https://www.datascience.salon/dss-elevate-virtual-conference-june-18/)
 
-- Slides: SOON
+- Slides: [2020-06-18_Deep Learning for Everyone_DSSelevate-Elevating-Women-in-Data.pdf](2020-06-18_Deep Learning for Everyone_DSSelevate-Elevating-Women-in-Data.pdf)
 
 - Model Asset Exchange: [http://ibm.biz/model-exchange](http://ibm.biz/model-exchange)
 
