@@ -1,10 +1,10 @@
-# Virtual Community Day: Deploy AI
+# BB DataCon Week
 
-March 10th, 2020 | 8am-5pm (ET)
+July 23rd, 2020 | 9am-11am (PT)
 
-Register [here](https://ibm-deployai.bemyapp.com/r).
+Register [here](https://bbdataconweek.com.br/tendencias-na-area-de-inteligencia-artificial-diretamente-do-codait-ibm-vale-do-silicio).
 
-- Slides: https://speakerdeck.com/kroz/deep-learning-for-everyone-virtual-community-day-deploy-ai
+- Slides: SOON
 
 - Sign up for IBM Cloud: http://ibm.biz/max-cloud
 
