@@ -4,7 +4,7 @@ July 23rd, 2020 | 9am-11am (PT)
 
 Register [here](https://bbdataconweek.com.br/tendencias-na-area-de-inteligencia-artificial-diretamente-do-codait-ibm-vale-do-silicio).
 
-- Slides: SOON
+- Slides: [slides](https://github.com/CODAIT/presentations/blob/master/talks/2020-07-23_BB-DataCon-Week/_20200723_Tend%C3%AAncias%20na%20area%20de%20Intelig%C3%AAncia%20Artificial%20diretamente%20do%20centro%20de%20Open%20Source%2C%20dados%20e%20tecnologias%20de%20intelig%C3%AAncia%20artificial%20da%20IBM%20-%20Vale%20do%20Sil%C3%ADcio.pdf)
 
 - Sign up for IBM Cloud: https://ibm.biz/BdqVxW
 
