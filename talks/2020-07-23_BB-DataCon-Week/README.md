@@ -6,7 +6,7 @@ Register [here](https://bbdataconweek.com.br/tendencias-na-area-de-inteligencia-
 
 - Slides: SOON
 
-- Sign up for IBM Cloud: http://ibm.biz/max-cloud
+- Sign up for IBM Cloud: https://ibm.biz/BdqVxW
 
 - Model Asset Exchange: [http://ibm.biz/model-exchange](http://ibm.biz/model-exchange)
 
@@ -18,10 +18,22 @@ Register [here](https://bbdataconweek.com.br/tendencias-na-area-de-inteligencia-
 
 - [R script example](https://github.com/CODAIT/presentations/blob/master/talks/2019-11-08_Rday-Medellin/object_detector.R)
 
+-  Elyra: https://github.com/elyra-ai/elyra 
+
+- Jupyter Enterprise Gateway: https://github.com/jupyter/enterprise_gateway 
+
+- Kubeflow: https://github.com/kubeflow
+
 - Veremax - Make music with your arms: http://ibm.biz/veremax
 
-- AIF 360 website: http://aif360.mybluemix.net/
+- AIF360: http://aif360.mybluemix.net/
 
-- AIF 360 github: https://github.com/IBM/AIF360
+- ART: https://art-demo.mybluemix.net/
+
+- AIX360: http://aix360.mybluemix.net/
+
+- FactSheets: https://aifs360.mybluemix.net/
 
 - Gabriela de Queiroz: [website](https://k-roz.com/), [AI Inclusive](https://ai-inclusive.org)
+
+- Luciano Resende: [twitter](https://twitter.com/lresende1975)
