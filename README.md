@@ -5,6 +5,7 @@
 
 #### 2020
 
+- [The Dev Conf - TDC Online SP](talks/2020-08-27_The-Dev-Conf)
 - [BB DataCon Week](talks/2020-07-23_BB-DataCon-Week)
 - [DSSelevate - Elevating Women in Data](talks/2020-06-18_DSSelevate-Elevating-Women-in-Data)
 - [Virtual Community Day - Deploy AI](talks/2020-03-07_Virtual-Community-Day-Deploy-AI)
