@@ -8,7 +8,7 @@
 - Conference website: [https://www.openup.global/?lang=en](https://www.openup.global/?lang=en)
 
 
-- Slides: [An Open Source Toolkit for R to Mitigate Discrimination and Bias in Machine Learning Models.pdf](An Open Source Toolkit for R to Mitigate Discrimination and Bias in Machine Learning Models.pdf)
+- Slides: [An Open Source Toolkit for R to Mitigate Discrimination and Bias in Machine Learning Models.pdf](https://github.com/CODAIT/presentations/blob/master/workshops/2020-09-12_OpenUp-Summit/An%20Open%20Source%20Toolkit%20for%20R%20to%20Mitigate%20Discrimination%20and%20Bias%20in%20Machine%20Learning%20Models.pdf)
 
 
 ### AIF360 (AI Fairness 360): 
