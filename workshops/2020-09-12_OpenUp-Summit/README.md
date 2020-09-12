@@ -1,12 +1,17 @@
 # OpenUp Summit 
 
-Conference website: [https://www.openup.global/?lang=en](https://www.openup.global/?lang=en)
+#### Workshop: An open source toolkit for R to mitigate discrimination and bias in machine learning models
+
+![](conference_agenda.png)
+
+
+- Conference website: [https://www.openup.global/?lang=en](https://www.openup.global/?lang=en)
 
 
 - Slides: Comming soon []()
 
 
-###AIF360: 
+### AIF360 (AI Fairness 360): 
 
 - http://aif360.mybluemix.net/
 - R package: https://cran.r-project.org/web/packages/aif360/index.html
