@@ -8,7 +8,7 @@
 - Conference website: [https://www.openup.global/?lang=en](https://www.openup.global/?lang=en)
 
 
-- Slides: Comming soon []()
+- Slides: [An Open Source Toolkit for R to Mitigate Discrimination and Bias in Machine Learning Models.pdf](An Open Source Toolkit for R to Mitigate Discrimination and Bias in Machine Learning Models.pdf)
 
 
 ### AIF360 (AI Fairness 360): 
@@ -16,6 +16,7 @@
 - http://aif360.mybluemix.net/
 - R package: https://cran.r-project.org/web/packages/aif360/index.html
 - Github: https://github.com/Trusted-AI/AIF360/tree/master/aif360/aif360-r
+- Blog post: [The AIF360 fairness toolkit is now available for R users](https://developer.ibm.com/technologies/artificial-intelligence/blogs/the-aif360-team-adds-compatibility-with-r/)
 
 
 #### Contacts:
