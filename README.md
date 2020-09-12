@@ -5,6 +5,7 @@
 
 #### 2020
 
+- [Crowdcast Elyra](talks/2020-09-01_Crowdcast-Elyra)
 - [The Dev Conf - TDC Online SP](talks/2020-08-27_The-Dev-Conf)
 - [BB DataCon Week](talks/2020-07-23_BB-DataCon-Week)
 - [DSSelevate - Elevating Women in Data](talks/2020-06-18_DSSelevate-Elevating-Women-in-Data)
@@ -20,4 +21,9 @@
 
 ## [Workshops](workshops/)
 
+#### 2020
+- [OpenUp-Summit](workshops/2020-09-12_OpenUp-Summit)
+
+
+#### 2019 
 - [ODSC West 2019](workshops/2019-10-29_ODSC-WEST)
