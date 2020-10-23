@@ -5,7 +5,7 @@
 
 #### 2020
 
-
+- [PyData Chicago](talks/2020-10-22_pydata-chicago-elyra)
 - [JupyterCon 2020](talks/2020-09-18_JupyterCon-DAX)
 - [Crowdcast Elyra](talks/2020-09-01_Crowdcast-Elyra)
 - [The Dev Conf - TDC Online SP](talks/2020-08-27_The-Dev-Conf)
