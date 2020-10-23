@@ -2,7 +2,7 @@
 
 ### Event information
 
-- Date: October 22, 2010
+- Date: October 22, 2020
 - Event URL: https://www.meetup.com/PyDataChi/events/273657000/
 - Presentation: [PDF](introduction-to-elyra-10-22-2020.pdf)
 - Recording: TBD
