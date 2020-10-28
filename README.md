@@ -5,7 +5,10 @@
 
 #### 2020
 
+- [Coda.Br](talks/2020-11-03_Coda-BR)
+- [Golden Gate University](talks/2020-10-29_GGU)
 - [PyData Chicago](talks/2020-10-22_pydata-chicago-elyra)
+- [BB Data Meeting](talks/2020-09-30_BB-Data-Meeting)
 - [JupyterCon 2020](talks/2020-09-18_JupyterCon-DAX)
 - [Crowdcast Elyra](talks/2020-09-01_Crowdcast-Elyra)
 - [The Dev Conf - TDC Online SP](talks/2020-08-27_The-Dev-Conf)
