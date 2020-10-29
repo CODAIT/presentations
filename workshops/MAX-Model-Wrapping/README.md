@@ -123,6 +123,7 @@ Add required python packages for running the model prediction to `requirements.t
 Following packages are required for this model:
 
 ```
+tensorflow==1.15.2
 numpy==1.16.1
 Pillow==5.4.1
 h5py==2.9.0
