@@ -4,13 +4,28 @@ Register: [https://tinyurl.com/databnda]()
 
 - Slides: 
 
-- Sign up for IBM Cloud [http://ibm.biz/gguniversity]() and use the [Python Notebook](http://ibm.biz/max-notebook)
+## Additional Resources
 
-- Model Asset Exchange: [http://ibm.biz/model-exchange](http://ibm.biz/model-exchange)
+- [Sign up for IBM Cloud](http://ibm.biz/gguniversity) 
 
-- Data Asset Exchange: [http://ibm.biz/data-exchange](http://ibm.biz/data-exchange)
+#### [Model Asset Exchange](http://ibm.biz/model-exchange): 
 
-- Veremax - Make music with your arms: [http://ibm.biz/veremax]()
+a place for developers to find and use free and open source deep learning models
+
+- [Python Notebook](http://ibm.biz/max-notebook)
+
+- [R script](https://github.com/CODAIT/presentations/blob/310910dd51f4c64df39d41d4627fc30e14188d75/talks/2020-06-18_DSSelevate-Elevating-Women-in-Data/object_detector.R)
+
+- [Veremax](http://ibm.biz/veremax): make music with your arms
+
+
+#### [Data Asset Exchange](http://ibm.biz/data-exchange): 
+
+open data sets and notebooks
+
+
+
+#### Trusted AI tools
 
 - AIF360: [http://aif360.mybluemix.net/]()
 
@@ -20,4 +35,5 @@ Register: [https://tinyurl.com/databnda]()
 
 - FactSheets: [https://aifs360.mybluemix.net/]()
 
-- Gabriela de Queiroz: [website](https://k-roz.com/), [AI Inclusive](https://ai-inclusive.org)
+-
+**Contact:** Gabriela de Queiroz: [website](https://k-roz.com/), [AI Inclusive](https://ai-inclusive.org)
