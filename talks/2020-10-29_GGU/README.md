@@ -1,8 +1,8 @@
-Golden Gate State University | MSBA students
+## Golden Gate State University | MSBA students
 
-Register: [https://tinyurl.com/databnda]()
+- Register: [https://tinyurl.com/databnda]()
 
-- Slides: 
+- Slides: [pdf](2020-10-29_GGU.pdf)
 
 ## Additional Resources
 
