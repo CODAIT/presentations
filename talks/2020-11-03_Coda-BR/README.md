@@ -1,6 +1,6 @@
 ## CODA.BR
 
-- Video: [youtube](https://www.youtube.com/watch?v=NN21A4VgKsg)
+- Video: [youtube](https://youtu.be/wMQ-QmxU8fk)
 
 - Slides: [pdf](2020-11-03_Coda-BR.pdf)
 
