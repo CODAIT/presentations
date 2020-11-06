@@ -4,7 +4,7 @@
 
 - Date: November 9, 2020
 - Event URL: https://www.crowdcast.io/e/data-science-lunch-and-6
-- Presentation: TBD
+- Presentation: [PDF](introduction_to_elyra.pdf)
 - Recording: TBD
 
 ### Additional resources
