@@ -5,7 +5,7 @@ Date: 2020-11-06
 
 
 
-- Slides: 
+- Slides: [pdf](2020-11-06_eUSR.pdf)
 
 ## Additional Resources
 
