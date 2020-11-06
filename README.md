@@ -5,6 +5,7 @@
 
 #### 2020
 
+- [IBM Developer channel Europe: Data Science Lunch and Learn](talks/2020-11-09_ds_lunch_and_learn)
 - [Coda.Br](talks/2020-11-03_Coda-BR)
 - [Golden Gate University](talks/2020-10-29_GGU)
 - [PyData Chicago](talks/2020-10-22_pydata-chicago-elyra)
