@@ -1,8 +1,8 @@
 ## PET UFPR
 
-- Video: [youtube]()
+- Video: [youtube](https://www.youtube.com/watch?v=qf2hVO7ZHx0)
 
-- Slides: [pdf]()
+- Slides: [pdf](2020-11-13_PET-UFPR.pdf)
 
 ## Material
 
