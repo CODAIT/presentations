@@ -4,7 +4,7 @@ Website: [https://www.meetup.com/cloudgirls/events/274361229/]()
 
 - Video: [youtube]()
 
-- Slides: [pdf]()
+- Slides: [pdf](2020-11-17_IBM-Cloud-Girls)
 
 ## Material
 
