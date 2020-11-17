@@ -1,8 +1,7 @@
 ## XL Congresso da Sociedade Brasileira de Computação (CSBC 2020)
 
-- Video: [youtube]()
 
-- Slides: [pdf]()
+- Slides: [pdf](2020-11-17_WIT.pdf)
 
 ## Material
 
