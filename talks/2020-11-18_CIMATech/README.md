@@ -1,15 +1,15 @@
-## Cloud Girls - Mulheres da IBM
+## CIMATech
 
-Website: [https://www.meetup.com/cloudgirls/events/274361229/]()
+Website: [http://www.cimatech.com.br/programacao/]()
 
 - Video: [youtube]()
 
-- Slides: [pdf](2020-11-17_IBM-Cloud-Girls.pdf)
+- Slides: [pdf](2020-11-18_CIMATECH.pdf)
 
 ## Material
 
 
-- [Sign up for IBM Cloud](http://ibm.biz/gguniversity) 
+- [Sign up for IBM Cloud](http://ibm.biz/Bdq5CG) 
 
 #### 1) [Model Asset Exchange](http://ibm.biz/model-exchange): 
 
