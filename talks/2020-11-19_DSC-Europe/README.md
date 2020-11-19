@@ -1,15 +1,14 @@
-## eUSR - Electronic Undergraduate Statistics Research Conference
+## DSC Europe 2020 - Data Science Conference
 
-Date: 2020-11-06
-
-
+Website: [https://www.datasciconference.com/]()
 
 
-- Slides: [pdf](2020-11-06_eUSR.pdf)
+- Slides: [pdf](2020-11-20_DSC-Europe.pdf)
+
 
 ## Additional Resources
 
-- [Sign up for IBM Cloud](http://ibm.biz/gguniversity) 
+- [Sign up for IBM Cloud](https://ibm.biz/Bdq5Nj) 
 
 #### [Model Asset Exchange](http://ibm.biz/model-exchange): 
 
@@ -24,7 +23,16 @@ a place for developers to find and use free and open source deep learning models
 
 #### [Data Asset Exchange](http://ibm.biz/data-exchange): 
 
-open data sets and notebooks
+Explore useful and relevant datasets and notebooks for data science
+
+
+**Some notebooks:**
+
+- [JFK Weather Data](https://developer.ibm.com/exchanges/data/all/jfk-weather-data/)
+
+- [Fashion MNIST](https://developer.ibm.com/exchanges/data/all/fashion-mnist/)
+
+
 
 
 #### Trusted AI tools
