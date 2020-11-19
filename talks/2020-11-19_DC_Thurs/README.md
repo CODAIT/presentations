@@ -3,7 +3,7 @@
 Website: [https://www.youtube.com/watch?v=oX6x-uA0PTU]()
 
 
-- Slides: [pdf](2020-11-20_DSC-Europe.pdf)
+- Slides: [pdf](2020-11-20_DC-THURS.pdf)
 
 
 ## Additional Resources
