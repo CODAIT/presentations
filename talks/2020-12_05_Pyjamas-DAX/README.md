@@ -3,7 +3,7 @@
 
 December 5th, 2020
 
-- Slides: [slides](https://github.com/CODAIT/presentations/tree/master/talks/2020-11-12_PyCon-DAX)
+- Slides: [slides](https://github.com/yil532/presentations/blob/master/talks/2020-12_05_Pyjamas-DAX/DAX-Pyjamas.pdf)
 
 - Elyra Github: [Elyra 1.4.0](https://github.com/elyra-ai/elyra)
 
