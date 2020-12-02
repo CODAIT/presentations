@@ -5,9 +5,16 @@
 
 ### 2020
 
+**December**
+- [USF](talks/2020-12-02_USF-Economics)
+
 
 **November**
 
+- [DSC Europe](talks/2020-11-19_DSC-Europe)
+- [DC Thurs](talks/2020-11-19_DC_Thurs)
+- [CIMATech](talks/2020-11-18_CIMATech)
+- [Cloud Girls](talks/2020-11-17_Cloud-Girls)
 - [CSBC](talks/2020-11-17_CSBC)
 - [PET UFPR](talks/2020-11-13_PET-UFPR)
 - [IBM Developer channel Europe: Data Science Lunch and Learn](talks/2020-11-09_ds_lunch_and_learn) ([Topic: Elyra](https://github.com/elyra-ai/elyra))
