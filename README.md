@@ -65,6 +65,7 @@
 ## [Workshops](workshops/)
 
 #### 2020
+- [IBM Watson Superclass Build & Deploy Models w Jupyter Notebooks & IBM Debater](workshops/2020-12-09_IBM-Watson-Superclass)
 - [OpenUp-Summit](workshops/2020-09-12_OpenUp-Summit)
 
 
