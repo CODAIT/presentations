@@ -6,6 +6,8 @@
 ### 2020
 
 **December**
+
+- [R-Ladies Riverside](talks/2020-12-10_R-Ladies-Riverside)
 - [USF](talks/2020-12-02_USF-Economics)
 
 
