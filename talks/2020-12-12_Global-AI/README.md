@@ -3,6 +3,8 @@
 
 December 12th, 2020
 
+- Slide: [Global AI Slide](https://bit.ly/globalai-elyra)
+
 - Elyra Github: [Elyra 1.4.0](https://github.com/elyra-ai/elyra)
 
 - Data Asset Exchange: [http://ibm.biz/data-exchange](http://ibm.biz/data-exchange)
