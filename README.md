@@ -7,6 +7,7 @@
 
 **December**
 
+- [Global AI On Tour](talks/2020-12-12_Global-AI)
 - [R-Ladies Riverside](talks/2020-12-10_R-Ladies-Riverside)
 - [USF](talks/2020-12-02_USF-Economics)
 
