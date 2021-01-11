@@ -3,7 +3,7 @@
 
 January 30 & 31, 2021
 
-- Slide: [Global AI Slide](https://bit.ly/globalai-elyra)
+- Slide: [BelPy 2021 Slide](https://bit.ly/belpy-dax)
 
 - Elyra Github: [Elyra 1.4.0](https://github.com/elyra-ai/elyra)
 
