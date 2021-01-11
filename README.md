@@ -3,6 +3,11 @@
 
 ## [Talks](talks/)
 
+### 2021
+
+**January**
+- [Belpy 2021](talks/2021-01-10_BelPy-2021)
+
 ### 2020
 
 **December**
