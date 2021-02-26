@@ -5,6 +5,11 @@
 
 ### 2021
 
+
+**February**
+- [WiDS New York](talks/2021-02-26_WiDS-NY)
+
+
 **January**
 - [Belpy 2021](talks/2021-01-10_BelPy-2021)
 
