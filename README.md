@@ -5,6 +5,9 @@
 
 ### 2021
 
+**March**
+- [Good Tech Scholar Program](talks/2021-03-22_Good-Tech-Scholar-Program)
+
 
 **February**
 - [WiDS New York](talks/2021-02-26_WiDS-NY)
